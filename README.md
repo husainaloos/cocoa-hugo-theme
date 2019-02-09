@@ -2,7 +2,7 @@
 
 A consistent and responsive [Hugo](https://gohugo.io) [theme](https://github.com/spf13/hugoThemes/) with clean typography. The primary typefaces are Open Sans, Raleway, and Ubuntu Mono.
 
-[__Demo__](https://themes.gohugo.io/theme/cocoa/) / [__Screenshots__](https://github.com/nishanths/cocoa-hugo-theme/blob/master/screenshots.md)
+[__Demo__](https://themes.gohugo.io/theme/cocoa/) / [__Screenshots__](https://github.com/husainaloos/cocoa-hugo-theme/blob/master/screenshots.md)
 
 ## Features
 
@@ -18,7 +18,7 @@ A consistent and responsive [Hugo](https://gohugo.io) [theme](https://github.com
 * Google Analytics
 * Piwik and Gitalk support
 
-Most features are optional and can be individually enabled/disabled in your [`config.toml`](https://github.com/nishanths/cocoa-hugo-theme/blob/master/exampleSite/config.toml).
+Most features are optional and can be individually enabled/disabled in your [`config.toml`](https://github.com/husainaloos/cocoa-hugo-theme/blob/master/exampleSite/config.toml).
 
 ## Table of Contents
 
@@ -33,7 +33,7 @@ From the root of your Hugo site, clone the theme into `themes/cocoa` by running:
 
 ```sh
 # Clone theme into the themes/cocoa directory
-$ git clone https://github.com/nishanths/cocoa-hugo-theme.git themes/cocoa
+$ git clone https://github.com/husainaloos/cocoa-hugo-theme.git themes/cocoa
 
 # Generate site files into the public directory
 $ hugo -t cocoa
@@ -46,7 +46,7 @@ $ hugo -t cocoa --watch serve
 
 ### Configuration
 
-Please see the sample [`config.toml`](https://github.com/nishanths/cocoa-hugo-theme/blob/master/exampleSite/config.toml). Note that if you already use cocoa but have updated to Hugo 0.18, you must lowercase every params of your existing `config.toml` (like in the sample).
+Please see the sample [`config.toml`](https://github.com/husainaloos/cocoa-hugo-theme/blob/master/exampleSite/config.toml). Note that if you already use cocoa but have updated to Hugo 0.18, you must lowercase every params of your existing `config.toml` (like in the sample).
 
 ### Creating Posts
 
@@ -68,10 +68,14 @@ hugo new fixed/about.md
 
 ## Development
 
-This theme is built and improved upon by open source [contributions](https://github.com/nishanths/cocoa-hugo-theme/graphs/contributors). Pull requests, bug fixes, and new features are welcome!
+This theme is built and improved upon by open source [contributions](https://github.com/husainaloos/cocoa-hugo-theme/graphs/contributors). Pull requests, bug fixes, and new features are welcome!
 
 If you're contributing CSS changes, please see the README at [`dev/`](dev).
 
 ## License
 
-Licensed under the MIT License. See the [LICENSE](https://github.com/nishanths/cocoa-hugo-theme/blob/master/LICENSE) file for more details.
+Licensed under the MIT License. See the [LICENSE](https://github.com/husainaloos/cocoa-hugo-theme/blob/master/LICENSE) file for more details.
+
+## NOTE
+
+This is a fork of the work of nishanths. I forked it because it is not being activily worked on there, and my blog is running using it. Thanks to him for his hard work on this project.
